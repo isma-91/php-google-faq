@@ -10,7 +10,7 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
 $arr_database = [
   [
     'q' => <<<STR
-    <h2 class="SbNcad">Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE)
+    <h2 class="title">Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE)
     relativa al diritto all'oblio?</h2>
     STR,
     'a' =>  <<<STR
@@ -47,7 +47,7 @@ $arr_database = [
   ],
   [
     'q' => <<<STR
-    <h2 class="SbNcad">Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?</h2>
+    <h2 class="title">Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?</h2>
     STR,
     'a' =>  <<<STR
     <p>Sappiamo che la sicurezza e la privacy sono importanti per te e lo sono anche per noi. Per noi è imperativo offrire
@@ -63,38 +63,44 @@ $arr_database = [
     <p><a href="https://privacy.google.com">Scopri</a> quali misure adottiamo per garantire protezione e sicurezza alle
     tue informazioni personali, lasciando a te il controllo.</p>
     <div id="associated-country" class="ahbJ5"></div>
-    <h2 class="SbNcad">Perché il mio account è associato a un paese?</h2>
-    <p>Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:</p>
-    <ol>
-      <li class="smANld">La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile
-      del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori
-      tramite una delle due società seguenti:
-        <ol type="a">
-          <li class="smANld">Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi
-            dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>
-          <li class="smANld">Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
-        </ol>
-      </li>
-      <li class="smANld">La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.
-      </li>
-    </ol>
-    <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li
-    offre o dal paese a cui è associato il tuo account.</p>
-    <h3>Stabilire il paese associato al tuo account</h3>
-    <p>Quando crei un nuovo Account Google, lo associamo a un paese in base a dove è stato creato. Per quanto riguarda gli
-    account creati almeno un anno fa, usiamo il paese da cui accedi solitamente ai servizi Google, in genere i servizi
-    in cui hai trascorso più tempo nell'ultimo anno.</p>
-    <p>I viaggi frequenti solitamente non influiscono sul paese associato al tuo account. Se ti trasferisci in un altro
-    paese, potrebbe occorrere circa un anno per aggiornare l'associazione del paese.</p>
-    <p>Se il paese associato al tuo account non corrisponde al tuo paese di residenza, il motivo potrebbe essere la
-    differenza tra il paese in cui lavori e il paese in cui risiedi, l'installazione di una rete privata virtuale (VPN)
-    per mascherare il tuo indirizzo IP oppure la residenza vicino a un confine territoriale. <a
-      href="country-association-form">Contattaci</a> se ritieni che il paese associato al tuo account sia sbagliato.</p>
     STR,
   ],
   [
     'q' => <<<STR
-    <h2 class="SbNcad">Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?</h2>
+    <h2 class="title">Perché il mio account è associato a un paese?</h2>
+    STR,
+    'a' => <<<STR
+      <p>Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:</p>
+      <ol>
+        <li class="smANld">La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile
+        del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori
+        tramite una delle due società seguenti:
+          <ol type="a">
+            <li class="smANld">Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi
+              dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>
+            <li class="smANld">Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
+          </ol>
+        </li>
+        <li class="smANld">La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.
+        </li>
+      </ol>
+      <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li
+      offre o dal paese a cui è associato il tuo account.</p>
+      <h3>Stabilire il paese associato al tuo account</h3>
+      <p>Quando crei un nuovo Account Google, lo associamo a un paese in base a dove è stato creato. Per quanto riguarda gli
+      account creati almeno un anno fa, usiamo il paese da cui accedi solitamente ai servizi Google, in genere i servizi
+      in cui hai trascorso più tempo nell'ultimo anno.</p>
+      <p>I viaggi frequenti solitamente non influiscono sul paese associato al tuo account. Se ti trasferisci in un altro
+      paese, potrebbe occorrere circa un anno per aggiornare l'associazione del paese.</p>
+      <p>Se il paese associato al tuo account non corrisponde al tuo paese di residenza, il motivo potrebbe essere la
+      differenza tra il paese in cui lavori e il paese in cui risiedi, l'installazione di una rete privata virtuale (VPN)
+      per mascherare il tuo indirizzo IP oppure la residenza vicino a un confine territoriale. <a
+        href="country-association-form">Contattaci</a> se ritieni che il paese associato al tuo account sia sbagliato.</p>
+      STR,
+  ],
+  [
+    'q' => <<<STR
+    <h2 class="title">Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?</h2>
     STR,
     'a' =>  <<<STR
     <p>I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web. I motori di ricerca
@@ -114,7 +120,7 @@ $arr_database = [
   ],
   [
     'q' => <<<STR
-    <h2 class="SbNcad">Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai
+    <h2 class="title">Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai
     siti web?</h2>
     STR,
     'a' =>  <<<STR
@@ -131,7 +137,8 @@ $arr_database = [
     determinato il clic su un annuncio.</p>
     STR,
   ],
-]
+];
+$arr_nav = ['Introduzione', 'Norme sulla privacy', 'Termini di servizio', 'Tecnologie', 'Domande frequenti',];
 ?>
 
 
@@ -143,8 +150,39 @@ $arr_database = [
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <header>
+    <div class="top-header">
+      <div class="logo">
+        <img src="img/logo.png" alt="logo-google"> </div>
+      <div class="terms"> Privacy e termini</div>
+    </div>
+    <div class="bottom-header">
+      <nav>
+        <ul>
+          <?php 
+          foreach ($arr_nav as $key => $value) {?>
+            <li> <a href="#" class="nav-links"><?= $value; ?> </a></li>
+          <?php } ?>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <ul>
+    <?php foreach ($arr_database as $key) { 
+      foreach ($key as $content => $value) {
+        echo "<li>{$value}</li>";
+      }
+    } ?>
+    </ul>
+  </div>
 </body>
 </html>

@@ -1,0 +1,93 @@
+/* ----------------------------
+GENERAL RULES
+---------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ----------------------------
+HEADER
+---------------------------- */
+header {
+  padding: 1rem;
+  border-bottom: 1px solid lightgray;
+}
+
+
+.top-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  max-width: 100px;
+  margin-right: .5rem;
+}
+.logo img {
+  max-width: 100%;
+}
+
+.terms {
+  font-size: 22px;
+}
+
+nav > ul{
+  display: flex;
+}
+
+nav > ul a{
+  margin-right:  1rem;
+  padding-bottom: .9rem;
+  text-decoration: none;
+  color: gray;
+}
+
+nav > ul li:last-child  a{
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+}
+
+/* ----------------------------
+BODY
+---------------------------- */
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+ol {
+  padding-left: 3rem;
+  /* margin-bottom: 2rem; */
+}
+ol > li {
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+li > ol {
+  margin-top: 1rem;
+}
+
+.title {
+  margin: 3.5rem 0 1rem 0;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
